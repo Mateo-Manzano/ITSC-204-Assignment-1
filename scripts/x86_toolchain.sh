@@ -37,7 +37,7 @@ options=$(getopt -o go:v32qrb: --long gdb,output:,verbose,x86-32,qemu,run,break:
 # Set positional parameters to the result from getopt.
 eval set -- "$options"
 
-# Loop through positional paramters.
+# Loop through positional parameters.
 while [[ $# -gt 0 ]]; do # while statement is executed if user enters an argument
         case $1 in # checking different cases below to find a match with the command entered by user 
                 -g|--gdb) # if -g is entered, then GDB is set to true 
