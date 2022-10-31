@@ -174,3 +174,11 @@ if [ "$GDB" == "True" ]; then # if the statement is true, the program will load 
         gdb "${gdb_params[@]}" $OUTPUT_FILE # file will run in GDB terminal with entered paramenters
 
 fi
+
+#GENERAL DOCUMENTATION
+
+git add [--verbose | -v] [--dry-run | -n] [--force | -f] [--interactive | -i] [--patch | -p]
+	  [--edit | -e] [--[no-]all | --[no-]ignore-removal | [--update | -u]] [--sparse]
+	  [--intent-to-add | -N] [--refresh] [--ignore-errors] [--ignore-missing] [--renormalize]
+	  [--chmod=(+|-)x] [--pathspec-from-file=<file> [--pathspec-file-nul]]
+	  [--] [<pathspec>…​] # THIS COMMAND UPDATES THE INDEX USING THE CURRENT CONTENT FOUND IN THE WORKING TREE.
